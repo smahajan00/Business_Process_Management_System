@@ -15,8 +15,7 @@ List<Product> searchInventory(String categoryFilter, double minPrice, double max
                     break;
                 }
                 // 6: If it passes, add the Electronics product to the results
-                results.add(p);
-                // 7: Exit this case and continue with the next product
+                results.add(p)
                 break;
 
             case "Clothing":
